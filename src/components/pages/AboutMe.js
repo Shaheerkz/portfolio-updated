@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import React from "react";
 import Header from "../../components/Header";
 import Particle from "../../Particle";
