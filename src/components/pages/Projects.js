@@ -16,7 +16,7 @@ function Projects() {
     infinite: true,
     speed: 500,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
