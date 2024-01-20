@@ -7,7 +7,7 @@ function Header() {
     <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center">
       <Link to="/">
         <a class="nav-link" aria-current="page" href="#">
-          <img src={logo} />
+          <img src={logo} className="img-fluid logo-img"/>
         </a>
       </Link>
 

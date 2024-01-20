@@ -6,7 +6,7 @@ function Banner() {
     <div className="row align-items-center">
       <div className="col-md-8">
         <div className="text-area">
-          <h1>I Am Muhammad Shaheer</h1>
+          <h1>I am Muhammad Shaheer</h1>
           <h2 className="font">
             <Typewriter
               options={{

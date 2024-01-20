@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-distracting-elements */
 import React from "react";
 import Header from "../../components/Header";
 import Particle from "../../Particle";
@@ -10,7 +9,7 @@ function AboutMe() {
         <Header />
         <div className="row">
           <div className="col-12 my-5">
-            <p className="article p-5">
+            <p className="article p-md-5 p-3">
               <h1 className="text-center text-uppercase">About Me</h1>I have Proficiency
               in HTML & CSS which are the building blocks of web development, I
               have Knowledge of responsive web development principles, which

@@ -1,4 +1,3 @@
-
 canvas {
   display: block;
   vertical-align: bottom;
@@ -61,10 +60,6 @@ canvas {
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
-/* partial animation css end*/
-/* body{
-  overflow: hidden;
-} */
 .text-area, .article, .skills, .p-cards, .wrp{
   position: relative;
   z-index: 2;
@@ -115,8 +110,20 @@ ul li a{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+  background: linear-gradient(to right, #f32170, #f32170,#f32170, #ff6b08) !important;
+}
+
+
+
+
 
 
 @media (max-width:768px) {
-  
+  .text-area{
+    text-align: center;
+  }
+  .logo-img{
+    max-width: 200px;
+  }
 }
