@@ -44,12 +44,12 @@ function Skills() {
       progress: '70%'
     },
     {
-      id: 6,
+      id: 7,
       heading: 'JQUERY',
       progress: '80%'
     },
     {
-      id: 7,
+      id: 8,
       heading: 'REACT',
       progress: '80%'
     },
