@@ -25,33 +25,38 @@ function Skills() {
     },
     {
       id: 3,
-      heading: 'BOOTSTRAP',
+      heading: 'SCSS',
       progress: '90%'
     },
     {
       id: 4,
-      heading: 'TAILWIND',
-      progress: '60%'
+      heading: 'BOOTSTRAP',
+      progress: '90%'
     },
     {
       id: 5,
+      heading: 'TAILWIND',
+      progress: '90%'
+    },
+    {
+      id: 6,
       heading: 'JAVASCRIPT',
-      progress: '20%'
+      progress: '70%'
     },
     {
       id: 6,
       heading: 'JQUERY',
-      progress: '40%'
+      progress: '80%'
     },
     {
       id: 7,
       heading: 'REACT',
-      progress: '50%'
+      progress: '80%'
     },
     {
       id: 8,
       heading: 'GITHUB',
-      progress: '40%'
+      progress: '60%'
     }
   ]
   return (
