@@ -10,6 +10,15 @@ import Brawds from "../brawds.jpg";
 import Memo from "../memorable.jpg";
 import Luis from "../Luis-Olivares.png";
 import Future from "../Dashboard.png";
+import American from '../americanllc.jpg';
+import Recto from '../rectollc.jpg';
+import Kitchen from '../fiver-client.jpg';
+import Scrubs from '../scrub-dashboard.jpg';
+import ScrubsWeb from '../scrubs-web.jpg';
+import Krazy from '../krazy.jpg';
+import Mac from '../just-mac.jpg';
+
+
 function Projects() {
   const settings = {
     dots: false,
@@ -51,37 +60,86 @@ function Projects() {
   const ProjectCard = [
     {
       id: 1,
+      img: American,
+      title: "American Ghostwriterllc",
+      link: "https://americanghostwriterllc.com/",
+      button: "View Project",
+    },
+    {
+      id: 2,
+      img: Recto,
+      title: "Recto Ghostwriters",
+      link: "https://rectoghostwriters.com/",
+      button: "View Project",
+    },
+    {
+      id: 3,
+      img: Kitchen,
+      title: "Kitchen Studio 2",
+      link: "https://designnapp.com/test-kitchen/",
+      button: "View Project",
+    },
+    {
+      id: 4,
       img: MyImg,
       title: "KC-AutoConnect",
       link: "https://kcautoconnect.onlinedevelopmentserver.com",
       button: "View Project",
     },
     {
-      id: 2,
+      id: 5,
       img: Brawds,
       title: "Brawds",
       link: "https://shaheerkz.github.io/BRAWDS",
       button: "View Project",
     },
     {
-      id: 3,
+      id: 6,
       img: Memo,
       title: "Memorable-world",
       link: "https://onlinedevelopmentserver.com/memorable-world-new",
       button: "View Project",
     },
     {
-      id: 4,
+      id: 7,
       img: Luis,
       title: "Luis Olivares",
       link: "https://onlinedevserver.com/luis-v2.onlinedevserver.com/",
       button: "View Project",
     },
     {
-      id: 5,
+      id: 8,
       img: Future,
       title: "Furure Now Network",
       link: "https://onlinedevelopmentserver.com/future-now",
+      button: "View Project",
+    },
+    {
+      id: 9,
+      img: Scrubs,
+      title: "Scrubs uniform Dashboard",
+      link: "https://clouddevelopmentserver.com/scrubs-dashboard/",
+      button: "View Project",
+    },
+    {
+      id: 10,
+      img: ScrubsWeb,
+      title: "Scrub uniform",
+      link: "https://clouddevelopmentserver.com/scrubs-dashboard/",
+      button: "View Project",
+    },
+    {
+      id: 11,
+      img: Krazy,
+      title: "Krazy Lion",
+      link: "https://krazylion.com/",
+      button: "View Project",
+    },
+    {
+      id: 12,
+      img: Mac,
+      title: "Just MacBook",
+      link: "https://justmac.com/laptops/",
       button: "View Project",
     },
   ];

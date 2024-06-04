@@ -16,7 +16,7 @@ function ProjectCards(props) {
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text>{props.content}</Card.Text>
-            <a href={props.link}>{props.button}</a>
+            <a href={props.link} target="_blank" rel="noreferrer">{props.button}</a>
           </Card.Body>
         </Card>
       </div>
